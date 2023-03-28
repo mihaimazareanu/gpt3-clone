@@ -13,12 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prebuild": "chmod -R 777 build",
+    "prebuild": "if not exist build mkdir build && chmod -R 777 build",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+  },  
   
   "eslintConfig": {
     "extends": [
