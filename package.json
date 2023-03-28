@@ -13,12 +13,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prebuild": "if not exist build mkdir build && takeown /f build /r /d y && icacls build /grant:r 'Users':(OI)(CI)F",
+    "prebuild": "if not exist build mkdir build && (takeown /f build /r /d y || true) && (icacls build /grant:r \"Users\":(OI)(CI)F || true)",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },  
+}, 
   
   "eslintConfig": {
     "extends": [
