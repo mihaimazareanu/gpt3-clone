@@ -14,7 +14,7 @@
   },
   "scripts": {
     "prebuild": "mkdir -p build && chmod -R 777 build",
-    "build": "npx react-scripts build",
+    "build": "npx --no-install react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
