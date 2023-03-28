@@ -14,11 +14,11 @@
   },
   "scripts": {
     "prebuild": "mkdir -p build && chmod -R 777 build",
-    "build": "react-scripts build",
+    "build": "sudo react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-}, 
+  },  
   
   "eslintConfig": {
     "extends": [
