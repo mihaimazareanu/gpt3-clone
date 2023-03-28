@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prebuild": "mkdir -p build && chmod -R 777 build",
+    "prebuild": "mkdir -p build && chmod -R a+rw build",
     "build": "npx --no-install react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
