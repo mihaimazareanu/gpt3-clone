@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prebuild": "mkdir -p build && takeown /f build /r /d y && icacls build /grant:r \"Users\":(OI)(CI)F",
+    "prebuild": "mkdir build || true && icacls build /t /grant Users:F && icacls build /t /grant \"NT AUTHORITY\\SYSTEM\":F",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
