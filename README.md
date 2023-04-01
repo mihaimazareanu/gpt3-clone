@@ -1,3 +1,6 @@
+!(./public/images/1.png)
+
+
 # Mock GPT3-Clone based on a Figma design
 
 This project is a visually stunning replica of OpenAI's GPT-3 language model interface, created using React.js and CSS. With its sleek and modern design, this app offers you a chance to explore the look and feel of the GPT-3 interface without the need for any actual functionality.
