@@ -1,4 +1,4 @@
-!(./public/images/1.png)
+!(public/images/1.png)
 
 
 # Mock GPT3-Clone based on a Figma design
